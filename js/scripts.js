@@ -1,7 +1,6 @@
 $(document).ready(function() {
   $("form#grocery").submit(function(event) {
     event.preventDefault();
-    console.log("this is working");
     const grocery1 = ($("#grocery1").val());
     const grocery2 = ($("#grocery2").val());
     const grocery3 = ($("#grocery3").val());
@@ -13,8 +12,8 @@ $(document).ready(function() {
     $("#item3").text(Array[2]);
 
     $("#result-show").show();
-    });
   });
-$(".clickable").click(function() {
-  $("#result-show").toggle();
+  $(".clickable").click(function() {
+    $("#result-show").toggle();
+  });
 });
