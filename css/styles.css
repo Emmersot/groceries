@@ -1,0 +1,11 @@
+.form-group {
+  display: hide;
+} 
+#result-show {
+  display: hide;
+}
+.clickable {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
